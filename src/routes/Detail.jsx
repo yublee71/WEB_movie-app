@@ -41,6 +41,7 @@ export function Detail() {
           genres={movie.genres}
           year={movie.year}
           summary={movie.description_full}
+          iscard=""
         />
       ) : null}
     </>

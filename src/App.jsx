@@ -1,4 +1,3 @@
-import styles from "./App.module.css";
 import { BrowserRouter, Routes, Route } from "react-router";
 import { Home } from "./routes/Home";
 import { Detail } from "./routes/Detail";
