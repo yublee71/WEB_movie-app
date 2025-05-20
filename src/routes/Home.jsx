@@ -12,7 +12,9 @@ export function Home() {
     setMovies(json.data.movies);
     setLoading(false);
   };
-  useEffect(() => getMovies, []);
+  useEffect(() => {
+    getMovies();
+  }, []);
   return (
     <div>
       <h1>The Movies!</h1>
