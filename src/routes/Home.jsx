@@ -23,9 +23,11 @@ export function Home() {
           {movies.map((movie) => (
             <Movie
               key={movie.id}
+              link={`/movie/${movie.id}`}
               coverImg={movie.medium_cover_image}
               title={movie.title}
               genres={movie.genres}
+              year={movie.year}
               summary={movie.summary}
             />
           ))}
